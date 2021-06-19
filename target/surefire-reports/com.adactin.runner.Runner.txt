@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 0, Errors: 9, Skipped: 15, Time elapsed: 20.243 s <<< FAILURE! - in com.adactin.runner.Runner
+Given User Launch The Adactin Application(| AAA | 1323 |)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+
+| AAA | 1323 |  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException
+
+Given User Launch The Adactin Application(| BBB | 234 |)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+| BBB | 234 |  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Given User Launch The Adactin Application(| SuriyaVeeran17 | Music17 |)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+| SuriyaVeeran17 | Music17 |  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+And User Select The Check In Date(Scenario: User Search And Select The Room And Details In The Select Hotel Page)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: User Search And Select The Room And Details In The Select Hotel Page  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+com.adactin.runner.Runner  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.adactin.runner.Runner.teardown(Runner.java:41)
+
